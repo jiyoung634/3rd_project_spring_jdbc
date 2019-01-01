@@ -1,0 +1,256 @@
+/* Custom CSS for Team 4 */
+@media all and (-ms-high-contrast: none) , ( -ms-high-contrast : active)
+	{
+	/* IE10+ CSS styles go here */
+	.navbar .navbar-brand img {
+		padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 575.99px) {
+	.row {
+		margin-left : 0px !important;
+		margin-right: 0px !important;
+	}
+	.user-profile {
+		display: none !important;
+	}
+	aside.left-panel .navbar .navbar-brand {
+		display: none !important;
+	}
+	nav.navbar {
+		width: 100% !important;
+	}
+	.card-body {
+		overflow-x: visible;
+		overflow-y: hidden;
+	}
+	.table td, table th {
+		min-width: 70px !important;
+	}
+	table {
+		margin-right: 40px;
+	}
+	button.float-right {
+		margin-right: 15px !important;
+	}
+	.student-score-chart-box {
+    width: 80% !important;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 576px) {
+	aside.left-panel {
+		width: 190px !important;
+	}
+	.open aside.left-panel {
+		width: 70px !important;
+	}
+	.table td, .table th {
+		font-size: 12px !important;
+	}
+	.tt {
+		font-size: 12px !important;
+	}
+}
+
+.row {
+	display: -webkit-box! important;
+}
+
+li.user-profile>img {
+	width: 170px;
+}
+
+div.card-body>div.d-block>img.rounded-circle {
+	width: 250px;
+}
+
+.float-right {
+	float: right !important;
+}
+
+.center-parent {
+	max-width: 100%;
+}
+
+.center-child {
+	margin: 0 auto;
+	display: block;
+	width: max-content;
+}
+
+/* user profile */
+body.open .user-profile {
+	display: none;
+}
+
+body.open nav.navbar {
+	width: 20px;
+}
+
+.user-profile {
+	display: block;
+	margin: 20px auto 0;
+}
+
+.user-profile img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.profile-font {
+	padding-top: 10px;
+	color: #c8c9ce !important;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.profile-font2 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+/* right panel */
+.right-panel .page-header h1 {
+	font-size: 16px !important;
+}
+
+nav.navbar {
+	width: inherit;
+}
+
+.card-in-tab {
+	border: none !important;
+}
+
+/* table */
+.table {
+	margin-bottom: 0rem !important;
+}
+
+.table td, .table th {
+	max-width: 100px;
+	min-width: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+
+th {
+	border-top-width: 0px !important;
+}
+
+.table thead th {
+	border-bottom: 0px !important;
+}
+
+/* button */
+.btn, .button {
+	font-size: 14px !important;
+}
+
+table .btn, table.button {
+	font-size: 0.55rem !important;
+}
+
+.btn-logout {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.btn-full-width {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.bth-modify-personal {
+	width: 100%;
+}
+
+.btn-pass-change {
+	width: 100%;
+}
+
+.btn-margin-left {
+	margin-left: 10px;
+}
+
+.btn-data-table {
+	margin-top: 15px !important;
+}
+
+.card {
+	margin-top: 1.5rem;
+}
+
+/* manager > student */
+#table-option>.form-inline {
+	float: right;
+}
+
+#table-option>.form-inline>.form-group>button, #table-option>.form-inline>.form-group>.input-group>.input-group-btn>button
+	{
+	margin-right: 7px;
+}
+
+/* CSS for tooltips */
+.tt {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0px;
+	color: #17a2b8;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.tt .tt-text {
+	visibility: hidden;
+	width: 200px;
+	background-color: #343a40;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px 5px;
+	position: absolute;
+	z-index: 1;
+	top: 200%;
+	left: 50%;
+	margin-left: -105px;
+}
+
+.tt .tt-text::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -10px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: transparent transparent #343a40 transparent;
+}
+
+.tt-text img {
+	display: block;
+	margin: 0 auto;
+	max-width: 150px;
+}
+
+/* Button Bar Div */
+div.btnBar {
+	text-align: right !important;
+	padding: 0px !important;
+}
+
+/* score chart */
+.student-score-chart-box {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div#search-box {
+	display: inline-block;
+}
